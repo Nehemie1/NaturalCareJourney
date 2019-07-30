@@ -1,0 +1,177 @@
+
+img{
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  padding: 5px;
+  font-size: 20px;
+  font: Georgia;
+
+  background: linear-gradient(135deg, rgba(85,239,203,1) 0%,rgba(30,87,153,1) 0%,rgba(85,239,203,1) 0%,rgba(91,202,255,1) 100%);
+
+}
+
+#bodyy{
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.columns {
+  float: left;
+  padding: 10px;
+
+}
+
+.left {
+  width: 20%;
+}
+
+.right {
+  width: 80%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#money {
+  float: left;
+  font-style: Georgia;
+  font-size: 15pt;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  font: courier;
+  color:white
+}
+
+h2 {
+  font-size: 26px;
+   font-family: Lora; font-size: 24px; font-style: normal; font-variant: small-caps; font-weight: 100; line-height: 24px; ;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #77C2F9;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #9EF8C6;
+}
+
+.active {
+  background-color: #9EF8C6;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#home{
+  text-align: center;
+  font-style: Georgia;
+  font-size: 15pt;
+  padding: 5px;
+}
+
+p{
+  text-align: left;
+  font-size: 15pt;
+
+}
+
+#welcome{
+  float: left;
+  width: 13%;
+  height: 5%;
+}
+
+button {
+  background:#8DCAF7;
+  border-radius: 45%;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid white;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  &:after {
+    position: absolute;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+}
+}
